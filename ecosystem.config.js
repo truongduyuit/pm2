@@ -15,7 +15,7 @@ module.exports = {
       user: 'duycnt',
       host: '150.95.105.222',
       ref: 'origin/master',
-      repo: 'https://github.com/truongduyuit/test-jenkins.git',
+      repo: 'https://github.com/truongduyuit/pm2.git',
       path: '/home/duycnt',
       'pre-deploy': 'git pull',
       'post-deploy': "npm install" +
