@@ -3,7 +3,7 @@ const MONGODB_URL = process.env.MONGODB_URL
 
 module.exports = {
   apps: [{
-    script: 'index.js',
+    script: 'source/index.js',
     env_production: {
       NODE_ENV: 'production',
       MONGODB_URL,
